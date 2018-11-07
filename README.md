@@ -1,6 +1,10 @@
 # DiversiPy
 NLTK program that detects redundant words and suggests synonyms for diversified diction
 
+# Dependencies
+- Python 3.6
+- NLTK 1.15.3
+
 # What does DiversiPy do?
 - My project takes a text (academic essay, personal journals, etc.) and a number `num` (number of words to suggest synonyms for) and outputs the top `num` most frequently used nouns, verbs, adjectives, and adverbs in their base form and synonyms for each of the words.
 - Using the synonym suggestions, it is possible to improve the writing by reducing redundant vocabulary.
